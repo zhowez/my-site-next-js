@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import style from "../styles/Contact.module.css";
 import ContentBox from "../components/ContentBox";
+import Head from "next/head";
 import { useState } from "react";
 
 const Contact = () => {
@@ -56,6 +57,10 @@ const Contact = () => {
 
   return (
     <>
+      <Head>
+        <title>James Z. Howes - Contact</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className={style.content}>
         <h1>Contact</h1>
         <hr />

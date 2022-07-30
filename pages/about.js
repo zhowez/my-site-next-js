@@ -5,16 +5,28 @@ import babPic from "../public/images/bab-pic.png";
 import disneyPic from "../public/images/disney-pic.png";
 import gradPic from "../public/images/graduation-pic.png";
 import Image from "next/future/image";
+import Head from "next/head";
+
+//turn off lazy loading
 
 const About = () => {
   return (
     <>
+      <Head>
+        <title>James Z. Howes - About</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className={style.main}>
         <h1>ABOUT</h1>
         <hr />
         <div className={style.organize}>
           <ContentBox className={style.box}>
-            <Image src={babPic} alt="Pic of me" className={style.image} />
+            <Image
+              src={babPic}
+              alt="Pic of me"
+              className={style.image}
+              loading="eager"
+            />
 
             <div className={style["info-box-right"]}>
               <h2>Life Before Clemson</h2>
@@ -49,11 +61,21 @@ const About = () => {
                 tremendouly in his senior group project, where he earned an A.
               </p>
             </div>
-            <Image src={disneyPic} alt="Pic of me" className={style.image} />
+            <Image
+              src={disneyPic}
+              alt="Pic of me"
+              className={style.image}
+              loading="eager"
+            />
           </ContentBox>
 
           <ContentBox className={style.box}>
-            <Image src={gradPic} alt="Pic of me" className={style.image} />
+            <Image
+              src={gradPic}
+              alt="Pic of me"
+              className={style.image}
+              loading="eager"
+            />
             <div className={style["info-box-right"]}>
               <h2>Life After Clemson</h2>
               <p className={style["right-text"]}>

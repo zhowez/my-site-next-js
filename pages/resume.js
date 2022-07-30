@@ -1,6 +1,6 @@
 import style from "../styles/Resume.module.css";
 import ContentBox from "../components/ContentBox";
-
+import Head from "next/head";
 import Footer from "../components/Footer";
 import React, { useRef } from "react";
 
@@ -15,7 +15,11 @@ const Resume = () => {
     window.scrollTo({ top: offset, behavior: "smooth" });
   };
   return (
-    <div>
+    <>
+      <Head>
+        <title>James Z. Howes - Resumé</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className={style.main}>
         <h1>RESUMÉ</h1>
         <hr />
@@ -153,7 +157,7 @@ const Resume = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

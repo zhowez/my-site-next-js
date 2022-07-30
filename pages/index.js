@@ -15,7 +15,12 @@ const Home = () => {
       <div className={style.content}>
         <ContentBox className={style.box}>
           <div className={style["image-div"]}>
-            <Image className={style.image} src={pic} alt="Pic of me" />
+            <Image
+              className={style.image}
+              src={pic}
+              alt="Pic of me"
+              loading="eager"
+            />
           </div>
           <div className={style.text}>
             <h1>Hi I&apos;m James!</h1>

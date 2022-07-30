@@ -113,16 +113,16 @@ const Resume = () => {
               <div className={style["jobs-organize"]}>
                 <ContentBox className={style.box}>
                   <h2>Southern Tide - Greenville, SC</h2>
-                  <h2>2014 - 2020</h2>
+                  <h2>2021 - 2022</h2>
 
-                  <h3>Sales Associate/ Associate Store Manager</h3>
+                  <h3>Sales Associate</h3>
 
                   <ul>
-                    <li>Training new employees in company standards</li>
                     <li>
-                      Responsible for creating a fun and inviting atmosphere
+                      Helped guests find the products that were right for them
                     </li>
-                    <li>Delegate responsible to team members</li>
+                    <li>Cleaned and stocked the store</li>{" "}
+                    <li>Balanced the register</li>
                   </ul>
                 </ContentBox>
                 <ContentBox className={style.box}>
@@ -141,7 +141,7 @@ const Resume = () => {
                   <h2>Build - A - Bear Workshop - Greenville, SC</h2>
                   <h2>2014 - 2020</h2>
 
-                  <h3>Sales Associate/ Associate Store Manager</h3>
+                  <h3>Sales Associate/Associate Store Manager</h3>
 
                   <ul>
                     <li>Training new employees in company standards</li>

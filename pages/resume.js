@@ -23,21 +23,21 @@ const Resume = () => {
         <div className={style["column-rules"]}>
           <ContentBox className={style["left-column"]}>
             <button onClick={() => scrollToRef(educationRef)}>
-              <i class="bi bi-person-lines-fill"></i> {" Education"}
+              <i className="bi bi-person-lines-fill"></i> {" Education"}
             </button>
 
             <button onClick={() => scrollToRef(coursesRef)}>
-              <i class="bi bi-book-half"></i>
+              <i className="bi bi-book-half"></i>
               {" Courses"}
             </button>
 
             <button onClick={() => scrollToRef(skillsRef)}>
-              <i class="bi bi-tools"></i>
+              <i className="bi bi-tools"></i>
               {" Skills"}
             </button>
 
             <button onClick={() => scrollToRef(workRef)}>
-              <i class="bi bi-briefcase-fill"></i>
+              <i className="bi bi-briefcase-fill"></i>
               {" Work"}
             </button>
           </ContentBox>
@@ -53,13 +53,13 @@ const Resume = () => {
                 <h3>Bachelor of Science: Computer Science</h3>
                 <h4>GPA: 3.52</h4>
                 <h4>
-                  Dean's List: Fall 2019, Fall 2020, Fall 2021, Spring 2022
+                  Dean&apos;s List: Fall 2019, Fall 2020, Fall 2021, Spring 2022
                 </h4>
               </ContentBox>
 
               <ContentBox className={style.box}>
                 <h2 ref={coursesRef}>
-                  <i class="bi bi-book-half"></i>
+                  <i className="bi bi-book-half"></i>
                   {" Relevent Courses"}
                 </h2>
                 <hr />
@@ -76,7 +76,7 @@ const Resume = () => {
 
             <ContentBox className={style.skills}>
               <h2 ref={skillsRef}>
-                <i class="bi bi-tools"></i>
+                <i className="bi bi-tools"></i>
                 {" Skills"}
               </h2>
               <hr />

@@ -18,7 +18,7 @@ const Home = () => {
             <Image className={style.image} src={pic} alt="Pic of me" />
           </div>
           <div className={style.text}>
-            <h1>Hi I'm James!</h1>
+            <h1>Hi I&apos;m James!</h1>
 
             <p>
               Welcome to my site! Feel free to look around. Take a look at my

@@ -45,8 +45,8 @@ const About = () => {
                 moments every day for guests. Afterwards he adapted to online
                 learning due to COVID-19, and earned a 4.0 summer of 2021.
                 During his senior year, James worked hard to learn about web
-                development and RESTful API's. This work helped him tremendouly
-                in his senior group project, where he earned an A.
+                development and RESTful API&apos;s. This work helped him
+                tremendouly in his senior group project, where he earned an A.
               </p>
             </div>
             <Image src={disneyPic} alt="Pic of me" className={style.image} />

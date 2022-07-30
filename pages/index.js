@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>James Z. Howes - Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={style.content}>

@@ -1,0 +1,98 @@
+.main {
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+
+.main hr,
+.main h1 {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  background-color: #b4dfe552;
+  width: 45%;
+}
+
+.column-rules {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-left: 1rem;
+  height: 25rem;
+  width: 7rem;
+  background-color: #feffff;
+  top: 4rem;
+  position: sticky;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 77%;
+}
+
+.education {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin-bottom: 3rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  background-color: #b4dfe552;
+  margin-bottom: 3rem;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  background-color: #b4dfe552;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.jobs-organize {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.jobs-organize div {
+  background-color: #feffff55;
+  margin: 1rem;
+}
+
+.organize {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.organize div {
+  background-color: #feffff55;
+  width: 2rem;
+  text-align: center;
+  margin: 1rem 1rem;
+  height: 5rem;
+  vertical-align: middle;
+}
